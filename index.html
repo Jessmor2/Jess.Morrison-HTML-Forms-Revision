@@ -11,7 +11,7 @@
 <body>
     <div class="card ">
         <div class="card-header">
-            <h2>Payment form example</h2>
+            <h2>Payment Form Example</h2>
         </div>
         <div class="card-body">
             <div class="alert alert-danger" role="alert">
@@ -47,9 +47,16 @@
                 </div>
                 <div class="col-md-4">
                   <label for="inputState" class="form-label"><h6>State</h6></label>
-                  <select id="inputState" class="form-select" value="">
+                  <select id="inputState" class="form-select">
                     <option selected>Pick a state</option>
-                    <option>...</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Virginia">Virginia</option>
                   </select>
                 </div>
                 <div class="col-md-2">
@@ -75,7 +82,7 @@
                 </div>
                 <div class="col-6">
                     <label for="inputMessage" class="form-label"><h6>Message</h6></label>
-                    <textarea class="form-control" id="inputMessage" aria-labelledby="Messagebox"></textarea>
+                    <textarea class="form-control" id="inputMessage" rows="5" aria-labelledby="Messagebox"></textarea>
                     <div id="Messagebox" class="form-text">
                         Add any notes here.
                       </div>
